@@ -1,0 +1,98 @@
+body{
+    background-color: rgba(179, 77, 204, 0.733);
+}
+.container{
+    width: 35%;
+    margin: auto;
+    display:flex;
+    justify-content: center;
+}
+.header
+{
+    text-align: center;
+    
+}
+.header h1{
+    margin:0;
+}
+div p
+{
+    padding-bottom: 20px;
+}
+form
+{
+  background-color: white;
+  padding: 30px;
+  
+}
+.navbar
+{
+    width:100%;  
+    border: 1px solid black;
+    overflow: auto;
+}
+.navbar a
+{  
+   float : left;
+   text-decoration: none;
+   width: 50%;
+   text-align: center;
+}
+.active
+{
+    background-color: rgb(1, 43, 29);
+    color: white;
+    padding: 10px 0px;
+}
+.inactive
+{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 10px 0px;
+}
+
+.control
+{
+    margin: 9px;
+    padding:10 px;
+}
+label{
+    display: inline-block;
+    padding-bottom: 5px;
+    font-weight:bold;
+}
+p{
+    margin:0;
+}
+textarea
+{
+    width: 100%;
+}
+.control input
+{
+    display:block;
+    width:100%;
+    padding: 5px;
+}
+ .size
+{
+    width: 100%;
+    margin:auto;
+}
+.size input
+{
+    width: 48.7%;
+    padding : 5px 0px;
+}
+button
+{
+    margin-top:20px; 
+    width: 100%;
+    padding: 5px 0px;
+    background-color: brown;
+    border-color: brown;
+    color: white;
+}
+
+
+
